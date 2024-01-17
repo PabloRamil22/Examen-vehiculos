@@ -21,14 +21,14 @@ public Gestor(){
 
 }
 public boolean mostrarDetallesVehiculo(String marca, String modelo, String añoFabricacion) {
-    Vehiculos vehiculos = new Vehiculos(marca, modelo, añoFabricacion);
+    Vehiculos vehiculos = new Vehiculos();
     vehiculos.setMarca(marca);
     vehiculos.setModelo(modelo);
     vehiculos.setAñoFabricacion(añoFabricacion);
     return vehiculosList.add(vehiculos);
 }
 public boolean mostrarDetallesMotorizado(String marca, String modelo, String añoFabricacion, String combustible){
-    Vehiculomotorizado vehiculomotorizado=new Vehiculomotorizado(marca, modelo, añoFabricacion, combustible);
+    Vehiculomotorizado vehiculomotorizado=new Vehiculomotorizado();
     vehiculomotorizado.setMarca(marca);
     vehiculomotorizado.setModelo(modelo);
     vehiculomotorizado.setCombustible(combustible);
@@ -36,7 +36,7 @@ public boolean mostrarDetallesMotorizado(String marca, String modelo, String añ
     return vehiculomotorizadoList.add(vehiculomotorizado);
 }
 public boolean mostrarDetallesAutomovil(String marca, String modelo, String añoFabricacion, String combustible, int numeroPuertas){
-    Automovil automovil=new Automovil(marca, modelo, añoFabricacion, combustible,numeroPuertas);
+    Automovil automovil=new Automovil();
     automovil.setMarca(marca);
     automovil.setModelo(modelo);
     automovil.setCombustible(combustible);
@@ -45,7 +45,7 @@ public boolean mostrarDetallesAutomovil(String marca, String modelo, String año
     return automovilList.add(automovil) ;
 }
 public boolean mostrarDetallesMotocicleta(String marca, String modelo, String añoFabricaion, String combustible, String tipoMotocicleta){
-    Motocicleta motocicleta=new Motocicleta(marca, modelo, añoFabricaion, combustible, tipoMotocicleta);
+    Motocicleta motocicleta=new Motocicleta();
     motocicleta.setMarca(marca);
     motocicleta.setModelo(modelo);
     motocicleta.setCombustible(combustible);
@@ -55,5 +55,13 @@ public boolean mostrarDetallesMotocicleta(String marca, String modelo, String a�
 
 }
 
-
+    @Override
+    public String toString() {
+        return "Gestor{" +
+                "vehiculosList=" + vehiculosList +
+                ", vehiculomotorizadoList=" + vehiculomotorizadoList +
+                ", automovilList=" + automovilList +
+                ", motocicletaList=" + motocicletaList +
+                '}';
+    }
 }

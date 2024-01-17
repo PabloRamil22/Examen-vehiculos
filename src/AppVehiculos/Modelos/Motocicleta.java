@@ -8,6 +8,10 @@ public class Motocicleta extends Vehiculomotorizado {
         this.tipoMotocicleta= this.tipoMotocicleta;
     }
 
+    public Motocicleta() {
+
+    }
+
     public String getTipoMotocicleta() {
         return tipoMotocicleta;
     }

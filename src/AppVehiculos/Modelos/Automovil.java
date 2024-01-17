@@ -7,6 +7,10 @@ public class Automovil extends Vehiculomotorizado {
         this.numeroPuertas= this.numeroPuertas;
     }
 
+    public Automovil() {
+
+    }
+
     public int getNumeroPuertas() {
         return numeroPuertas;
     }

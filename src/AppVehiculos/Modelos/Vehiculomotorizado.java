@@ -10,6 +10,10 @@ public class Vehiculomotorizado extends Vehiculos {
         this.combustible = combustible;
     }
 
+    public Vehiculomotorizado() {
+
+    }
+
     public String getCombustible() {
         return combustible;
     }

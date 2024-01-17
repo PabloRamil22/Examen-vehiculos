@@ -11,6 +11,10 @@ public class Vehiculos {
         this.añoFabricacion = añoFabricacion;
     }
 
+    public Vehiculos() {
+
+    }
+
     public String getMarca() {
         return marca;
     }

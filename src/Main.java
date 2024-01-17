@@ -1,7 +1,10 @@
 import AppVehiculos.Gestor.Gestor;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
+        Scanner leer= new Scanner(System.in);
         Gestor gestor=new Gestor();
         gestor.mostrarDetallesVehiculo("BMW", "2","12-07-2000");
         System.out.println(gestor.toString());
