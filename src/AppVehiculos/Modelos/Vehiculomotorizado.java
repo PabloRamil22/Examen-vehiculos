@@ -3,7 +3,8 @@ package AppVehiculos.Modelos;
 import AppVehiculos.Modelos.Vehiculos;
 
 public class Vehiculomotorizado extends Vehiculos {
-    private String combustible;
+    public String combustible;
+
 
     public Vehiculomotorizado(String marca, String modelo, String añoFabricacion, String combustible) {
         super(marca, modelo, añoFabricacion);
@@ -26,6 +27,9 @@ public class Vehiculomotorizado extends Vehiculos {
     public String toString() {
         return "Vehiculomotorizado{" +
                 "combustible='" + combustible + '\'' +
+                ", marca='" + marca + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", añoFabricacion='" + añoFabricacion + '\'' +
                 '}';
     }
 }

@@ -58,10 +58,10 @@ public boolean mostrarDetallesMotocicleta(String marca, String modelo, String a√
     @Override
     public String toString() {
         return "Gestor{" +
-                "vehiculosList=" + vehiculosList +
-                ", vehiculomotorizadoList=" + vehiculomotorizadoList +
-                ", automovilList=" + automovilList +
-                ", motocicletaList=" + motocicletaList +
+                "vehiculosList=" + vehiculosList +"\n"+
+                ", vehiculomotorizadoList=" + vehiculomotorizadoList +"\n"+
+                ", automovilList=" + automovilList +"\n"+
+                ", motocicletaList=" + motocicletaList +"\n"+
                 '}';
     }
 }

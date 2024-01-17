@@ -1,9 +1,9 @@
 package AppVehiculos.Modelos;
 
 public class Vehiculos {
-    private String marca;
-    private String modelo;
-    private String añoFabricacion;
+    public String marca;
+    public String modelo;
+    public String añoFabricacion;
 
     public Vehiculos(String marca, String modelo, String añoFabricacion) {
         this.marca = marca;
@@ -42,9 +42,9 @@ public class Vehiculos {
     @Override
     public String toString() {
         return "Vehiculos{" +
-                "marca='" + marca + '\'' +
-                ", modelo='" + modelo + '\'' +
-                ", añoFabricacion='" + añoFabricacion + '\'' +
+                "marca='" + marca + '\'' +"\n"+
+                "modelo='" + modelo + '\'' +"\n"+
+                "añoFabricacion='" + añoFabricacion + '\'' +"\n"+
                 '}';
     }
 }

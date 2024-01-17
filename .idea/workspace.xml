@@ -11,7 +11,7 @@
       <change beforePath="$PROJECT_DIR$/src/AppVehiculos/Modelos/Motocicleta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppVehiculos/Modelos/Motocicleta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AppVehiculos/Modelos/Vehiculomotorizado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppVehiculos/Modelos/Vehiculomotorizado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AppVehiculos/Modelos/Vehiculos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppVehiculos/Modelos/Vehiculos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppVehiculos/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705510590549</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Examen aplicacion vehiculos.">
+      <option name="closed" value="true" />
+      <created>1705515264936</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705515264936</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

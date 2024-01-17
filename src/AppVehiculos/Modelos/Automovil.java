@@ -1,10 +1,12 @@
 package AppVehiculos.Modelos;
 
 public class Automovil extends Vehiculomotorizado {
-    private int numeroPuertas;
+    public int numeroPuertas;
+
+
     public Automovil(String marca, String modelo, String añoFabricacion, String combustible, int numeroPuertas) {
         super(marca, modelo, añoFabricacion, combustible);
-        this.numeroPuertas= this.numeroPuertas;
+        this.numeroPuertas = numeroPuertas;
     }
 
     public Automovil() {
@@ -23,6 +25,10 @@ public class Automovil extends Vehiculomotorizado {
     public String toString() {
         return "Automovil{" +
                 "numeroPuertas=" + numeroPuertas +
+                ", combustible='" + combustible + '\'' +
+                ", marca='" + marca + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", añoFabricacion='" + añoFabricacion + '\'' +
                 '}';
     }
 }
